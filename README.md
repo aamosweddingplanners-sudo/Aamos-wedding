@@ -1,1 +1,1 @@
-# Aamos-wedding
+# Aamos-wedding-planners
