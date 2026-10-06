@@ -50,7 +50,7 @@ export default function LoadingScreen() {
         }}
       >
         <Image
-          src="/amos-logo-transparent.png"
+          src="/amos-logo-transparent.webp"
           alt="Aamos Wedding Planners"
           width={2200}
           height={1730}

@@ -20,7 +20,7 @@ export default function Header() {
           <span className="brand__logo-wrap">
             <Image
               className="brand__logo"
-              src="/amos-logo-transparent.png"
+              src="/amos-logo-transparent.webp"
               alt="Aamos Wedding Planners"
               fill
               sizes="160px"

@@ -12,8 +12,8 @@ import "./globals.css";
 const configuredSiteUrl = process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "");
 const metadataBaseUrl = configuredSiteUrl ?? "http://localhost:3000";
 const mapUrl = "https://maps.app.goo.gl/UBkZ5Eic6BT5xGGu5";
-const logoPath = "/amos-logo-transparent.png";
-const socialImagePath = "/wedding-two.jpeg";
+const logoPath = "/amos-logo-transparent.webp";
+const socialImagePath = "/wedding-two.webp";
 const businessId = configuredSiteUrl ? `${configuredSiteUrl}/#business` : "#business";
 
 export const metadata: Metadata = {

@@ -11,7 +11,7 @@ export const services: ServiceItem[] = [
     title: "Wedding Planning & Coordination",
     description:
       "From the first conversation to the final farewell, we bring every moving part together with calm, thoughtful coordination.",
-    image: "/service-wedding-planning-v2.png",
+    image: "/service-wedding-planning-v2.webp",
     alt: "Floral wedding ceremony aisle prepared at golden hour",
     featured: true,
   },
@@ -19,14 +19,14 @@ export const services: ServiceItem[] = [
     title: "Traditional & Destination Weddings",
     description:
       "Celebrations shaped around your traditions, setting and people, with a plan that keeps the experience beautifully personal.",
-    image: "/service-destination-wedding-v2.png",
+    image: "/service-destination-wedding-v2.webp",
     alt: "Destination wedding ceremony overlooking a bright coastal landscape",
   },
   {
     title: "Budget Planning",
     description:
       "Flexible planning support that keeps your priorities clear and helps every detail work beautifully within your budget.",
-    image: "/service-budget-planning-v2.png",
+    image: "/service-budget-planning-v2.webp",
     alt: "Wedding planning notebook, calculator and fabric swatches on a desk",
     featured: true,
   },
@@ -34,21 +34,21 @@ export const services: ServiceItem[] = [
     title: "Decor & Styling",
     description:
       "Floral details, stage styling and considered finishing touches that make your venue feel unmistakably yours.",
-    image: "/service-decor-styling-v2.png",
+    image: "/service-decor-styling-v2.webp",
     alt: "Candlelit wedding reception table layered with florals and glassware",
   },
   {
     title: "Venue Selection & Guest Management",
     description:
       "Practical support with venue preparation, guest flow and the details that help everyone feel cared for.",
-    image: "/service-venue-selection-v2.png",
+    image: "/service-venue-selection-v2.webp",
     alt: "Elegant wedding venue and garden prepared for guests at sunset",
   },
   {
     title: "Photography Coordination",
     description:
       "We help shape the photography plan around the moments, people and details you will want to remember.",
-    image: "/service-photography-v2.png",
+    image: "/service-photography-v2.webp",
     alt: "Newly married couple walking outdoors with a photographer in the background",
   },
 ];

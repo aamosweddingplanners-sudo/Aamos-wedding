@@ -64,7 +64,7 @@ export default function Home() {
           <div className={styles.heroVisual} aria-label="Aamos celebration photography">
             <div className={styles.heroImage}>
               <Image
-                src="/wedding-two.jpeg"
+                src="/wedding-two.webp"
                 alt="A couple sharing a moment on a floral wedding stage"
                 fill
                 priority
@@ -88,7 +88,7 @@ export default function Home() {
         <div className={`${styles.container} ${styles.introGrid}`}>
           <div className={styles.imageFrame}>
             <Image
-              src="/wedding.jpeg"
+              src="/wedding.webp"
               alt="Newly married couple standing beneath a floral arch"
               fill
               sizes="(max-width: 900px) 100vw, 540px"
@@ -157,7 +157,7 @@ export default function Home() {
             <article className={styles.featureCard}>
               <div className={styles.featureImage}>
                 <Image
-                  src="/feature-creative-concepts-v2.png"
+                  src="/feature-creative-concepts-v2.webp"
                   alt="Hand-tied wedding bouquet with soft floral details"
                   fill
                   sizes="(max-width: 900px) 100vw, 480px"
