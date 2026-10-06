@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { WHATSAPP_URL } from "@/lib/site";
 
 export default function Footer() {
   return (
@@ -60,9 +61,14 @@ export default function Footer() {
             Share your date, your ideas and what matters most. We&apos;ll take it
             from there.
           </p>
-          <Link className="footer-button" href="https://wa.me/916235314140">
+          <a
+            className="footer-button"
+            href={WHATSAPP_URL}
+            target="_blank"
+            rel="noreferrer"
+          >
             Contact Aamos
-          </Link>
+          </a>
         </div>
       </div>
       <div className="site-footer__bottom">

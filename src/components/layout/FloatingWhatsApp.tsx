@@ -1,8 +1,10 @@
+import { WHATSAPP_URL } from "@/lib/site";
+
 export default function FloatingWhatsApp() {
   return (
     <a
       className="whatsapp-float"
-      href="https://wa.me/916235314140?text=Hello%20Aamos%20Wedding%20Planners"
+      href={WHATSAPP_URL}
       target="_blank"
       rel="noreferrer"
       aria-label="Chat with Aamos Wedding Planners on WhatsApp"

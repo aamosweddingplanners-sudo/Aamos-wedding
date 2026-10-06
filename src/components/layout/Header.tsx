@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { WHATSAPP_URL } from "@/lib/site";
 
 const navigation = [
   ["Home", "/#hero"],
@@ -38,9 +39,14 @@ export default function Header() {
         </nav>
 
         <div className="site-header__actions">
-          <Link className="header-cta" href={{ pathname: "/", hash: "contact" }}>
+          <a
+            className="header-cta"
+            href={WHATSAPP_URL}
+            target="_blank"
+            rel="noreferrer"
+          >
             Start Planning
-          </Link>
+          </a>
           <button
             className="menu-toggle"
             type="button"
@@ -62,13 +68,15 @@ export default function Header() {
             </Link>
           ))}
         </nav>
-        <Link
+        <a
           className="mobile-menu__cta"
-          href={{ pathname: "/", hash: "contact" }}
+          href={WHATSAPP_URL}
+          target="_blank"
+          rel="noreferrer"
           onClick={() => setIsOpen(false)}
         >
           Start Planning
-        </Link>
+        </a>
       </div>
     </header>
   );
